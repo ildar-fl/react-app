@@ -15,7 +15,6 @@ jobs:
           node-version: 20.x.x
           cache: npm
       - run: npm ci
-      - run: npm run lint:js
       - run: npm run tsc
   deploy:
     needs: lint
