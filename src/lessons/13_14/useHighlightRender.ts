@@ -4,10 +4,14 @@ const useHighlightRender = () => {
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    ref.current!.style.borderColor = 'red';
+    if (ref.current) {
+      ref.current.style.borderColor = 'red';
+    }
 
     setTimeout(() => {
-      ref.current!.style.borderColor = '';
+      if (ref.current) {
+        ref.current.style.borderColor = '';
+      }
     }, 200);
   });
 
