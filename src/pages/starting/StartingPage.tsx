@@ -35,9 +35,9 @@ const StartingPage: FC = () => {
           setOpen={setIsOpen}
         >
           <Button>Добавить анализ</Button>
-          <Button>Добавить анализ</Button>
-          <Button>Добавить анализ</Button>
-          <Button>Добавить анализ</Button>
+          <Button>Добавить медкарта</Button>
+          <Button>Добавить документ</Button>
+          <Button>Добавить фото</Button>
         </ContextMenu>
       </Panel>
     </CenteredPage>
