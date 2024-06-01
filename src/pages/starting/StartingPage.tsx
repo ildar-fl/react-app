@@ -38,6 +38,11 @@ const StartingPage: FC = () => {
           <Button>Добавить медкарта</Button>
           <Button>Добавить документ</Button>
           <Button>Добавить фото</Button>
+          <Button>Добавить фото</Button>
+          <Button>Добавить фото</Button>
+          <Button>Добавить фото</Button>
+          <Button>Добавить фото</Button>
+          <Button>Добавить фото</Button>
         </ContextMenu>
       </Panel>
     </CenteredPage>
