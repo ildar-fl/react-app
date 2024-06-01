@@ -18,7 +18,7 @@ interface IUseRequestReturnProps<Data> {
 
 const INITIAL_PROPS: any[] = [];
 
-const useRequest = <Data extends any>(
+const useRequest = <Data>(
   func: FuncRequestType,
   props: FuncRequestProps = INITIAL_PROPS
 ): IUseRequestReturnProps<Data> => {

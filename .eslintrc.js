@@ -21,6 +21,7 @@ module.exports = {
     'no-implicit-coercion': ['error', { boolean: false }],
     curly: 'error',
     'prettier/prettier': ['error', { endOfLine: 'auto' }],
+    'react-hooks/exhaustive-deps': 'off',
 
     // подсвечивает использование console.log(...) в проекте
     // 'no-console': [

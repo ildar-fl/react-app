@@ -64,7 +64,7 @@ const Profile: FC = () => {
 
       <footer>
         <address>
-          <a className="link" href="#" target="_blank">
+          <a className="link" href="/#" target="_blank">
             Россия, г. Санкт-Петербург, ИТМО
           </a>
         </address>
