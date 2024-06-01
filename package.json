@@ -33,8 +33,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "tsc": "tsc --noEmit",
-    "lint:js": "eslint \"src/**/*.{ts,tsx,js,jsx}\" --max-warnings=0 --cache --color",
+    "lint:ts": "tsc --noEmit",
+    "lint": "eslint \"src/**/*.{ts,tsx,js,jsx}\" --max-warnings=0 --cache --color",
     "lint:fix": "eslint \"src/**/*.{ts,tsx,js,jsx}\" --max-warnings=0 --fix --color"
   },
   "browserslist": {
